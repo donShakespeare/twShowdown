@@ -2,6 +2,9 @@
   twShowdown.js 
   Live Preview your TinyMCE Markdown in Showdown.js with full MathJax support
   View Sidebyside or popped up
+  Works with twExoticMarkdownEditor.js
+
+  If you are using another library to Parse your published Markdown, say PHP Parsedown Extra, note that Markdown Parsers have syntax flavours, therefore using Showdown (Javascript) might show little differences from your final official output.
 
   https://github.com/donShakespeare/twShowdown
   Demo: http://www.leofec.com/modx-revolution/
@@ -19,7 +22,6 @@
       twShowdownCDNbase: "",
       twMathJaxDisable: , // 1/0
       twMathJaxURL: "", //defauls to CDN
-      twFontSize: 15,
       twPoppedTitle: "",
       twPopped: 0, // popped (default) or inline
       twPoppedWidth: "",
